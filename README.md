@@ -51,7 +51,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 ## Install
 
     $ git clone https://github.com/elvis-lam/ContactList
-    $ cd PROJECT
+    $ cd ContactList
+    $ npm install
+
+    $ cd client
     $ npm install
 
 
