@@ -20,7 +20,7 @@ class Header extends Component {
                 return [
                         <li key='1'><a href="/contacts" className="grey-text menu">Contact List</a></li>,
                         <li key='2'><a href="/favorites" className="grey-text menu">Favorites</a></li>,
-                        <li key='3'style={{ marginRight: '50px' }}><a href="/api/logout" className="grey-text menu">Logout</a></li>
+                        <li key='3'style={{ marginRight: '50px' }}><a href="/api/logoff" className="grey-text menu">Logout</a></li>
                 ];
         }
     }

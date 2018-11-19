@@ -4,10 +4,15 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const keys = require('./config/key');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 require('./models/User');
 require('./services/passport');
-require('./config/mongoose');
+
+// Local MongoDB connection >>
+// require('./config/mongoose');
+
+mongoose.connect(keys.mongoURI);
 
 const app = express();
 app.use(bodyParser.json());

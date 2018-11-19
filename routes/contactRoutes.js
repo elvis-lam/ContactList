@@ -7,6 +7,8 @@ const Contact = mongoose.model('Contact');
 // const requireLogin = require('../middleware/requireLogin');
 
 module.exports = app => {
+
+
     // Get All Contats
     app.get('/api/contacts', async (req, res) => {
         // console.log("contact Routes")
@@ -14,7 +16,7 @@ module.exports = app => {
         res.send(contacts);
     });
 
-    
+
     // Grab all USERS in DB
     app.get('/api/users', async (req, res) => {
         // console.log("contact Routes")
@@ -48,8 +50,7 @@ module.exports = app => {
         const oneContact = await Contact.findById(req.params.id);
         // console.log(oneContact);
         res.send(oneContact);
-
-    })
+    });
 
 
     // Update a Contact
@@ -78,5 +79,5 @@ module.exports = app => {
         const deleteContact = await Contact.findById(req.params.id);
         res.send(deleteContact);
         // console.log('deleting contact success');
-    })
+    });
 };
