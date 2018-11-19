@@ -1,0 +1,20 @@
+.brand-logo {
+    margin-left: 80px;
+}
+
+img {
+    padding-top: 15px;
+}
+
+li {
+    margin-right: 30px;
+    font-style: normal;
+    font-family: raleway,
+    sans-serif;
+    font-weight: 500;
+}
+
+.menu:hover {
+    font-weight: bold;
+    font-size: 1.1em;
+}

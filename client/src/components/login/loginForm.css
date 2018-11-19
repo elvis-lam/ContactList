@@ -1,0 +1,39 @@
+.googleSign {
+    margin: 150px 0px 10px 0px;
+    background-color: #f44336;
+}
+
+.googleSign:hover {
+    background-color: #ef5350;
+}
+
+.signUp {
+    margin: 10px 0px 150px 0px;
+    background-color: #757575;
+}
+
+.signUp:hover {
+    background-color: #9e9e9e;
+}
+
+.signUp, .googleSign {
+      height: 50px;
+      width: 50%;
+      border-radius: 25px;
+      padding: 6px 0px;
+      font-weight: bold;
+      font-size: 15px;
+}
+
+h6+* {
+    border-top: solid 1px #9e9e9e;
+    padding-top: 18px;
+    margin-top: -15px;
+}
+
+h6 span {
+    padding: 0 20px;
+    Text-align: center;
+    background-color: #eeeeee;
+    vertical-align: top;
+}
